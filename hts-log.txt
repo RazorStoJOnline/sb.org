@@ -1,0 +1,23 @@
+HTTrack3.48-19+htsswf+htsjava launched on Mon, 22 Dec 2014 20:23:47 at steelbattalion.org +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" steelbattalion.org -O1 "C:\Users\Cedrick\Desktop\steel_battalion\steel battalion" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:31:33	Error: 	"Not Found" (404) at link steelbattalion.org/forum/ (from steelbattalion.org/)
+20:35:37	Error: 	"Not Found" (404) at link steelbattalion.org/line.gif (from steelbattalion.org/controller.php)
+20:36:25	Error: 	"Not Found" (404) at link steelbattalion.org/vts/hiRes/hiResvtJarM.jpg (from steelbattalion.org/vts2.php)
+20:56:18	Warning: 	file not stored in cache due to bogus state (broken size, expected 21569676 got 8059184): steelbattalion.org/media/moviesSB/movie0.mov
+21:01:47	Error: 	"Not Found" (404) at link steelbattalion.org/forums/ (from steelbattalion.org/n00b.php)
+21:01:48	Warning: 	Retry after error -4 (No data (connection closed)) at link steelbattalion.org/media/productArt/product1.jpg (from steelbattalion.org/product.php)
+21:01:48	Warning: 	Retry after error -4 (Incorrect length (8059184 Bytes, 21569676 expected)) at link steelbattalion.org/media/moviesSB/movie0.mov (from steelbattalion.org/moviesSB.php)
+21:06:10	Warning: 	file not stored in cache due to bogus state (broken size, expected 16189444 got 10548112): steelbattalion.org/media/moviesLOC/movie0.mpg
+21:06:10	Warning: 	Retry after error -4 (Incorrect length (10548112 Bytes, 16189444 expected)) at link steelbattalion.org/media/moviesLOC/movie0.mpg (from steelbattalion.org/moviesLOC.php)
+21:06:17	Error: 	"Not Found" (404) at link steelbattalion.org/maxfareday@locanarchy.com (from steelbattalion.org/locClans.php)
+21:14:54	Warning: 	file not stored in cache due to bogus state (broken size, expected 21569676 got 18517428): steelbattalion.org/media/moviesSB/movie0.mov
+21:14:54	Warning: 	Retry after error -4 (Incorrect length (18517428 Bytes, 21569676 expected)) at link steelbattalion.org/media/moviesSB/movie0.mov (from steelbattalion.org/moviesSB.php)
+
+HTTrack Website Copier/3.48-19 mirror complete in 53 minutes 9 seconds : 659 links scanned, 649 files written (76842865 bytes overall) [77103381 bytes received at 24177 bytes/sec], 2.8 requests per connection
+(5 errors, 7 warnings, 0 messages)
